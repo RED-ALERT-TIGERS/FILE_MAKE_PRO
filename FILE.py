@@ -1,9 +1,1 @@
-#!/data/data/com.termux/files/usr/bin/python
-import platform,os
-#####
-os.system("git pull")
-bit = platform.architecture()[0]
-if bit == '64bit':
-    import File_Make
-elif bit == '32bit':
-    print('\033[1;97m[✓] SORRY BRO YOUR DEVIS IS 32 BIT ')
+import File_Make
